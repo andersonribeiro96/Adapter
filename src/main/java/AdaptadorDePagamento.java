@@ -1,6 +1,6 @@
 public class AdaptadorDePagamento implements ProcessadorDePagamento {
 
-    private NovoProcessadorDePagamento novoProcessador;
+    private final NovoProcessadorDePagamento novoProcessador;
 
     public AdaptadorDePagamento(NovoProcessadorDePagamento novoProcessador) {
         this.novoProcessador = novoProcessador;
